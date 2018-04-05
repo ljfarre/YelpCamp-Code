@@ -1,7 +1,7 @@
 {
-  "name": "yelp-camp_v1",
+  "name": "yelp-camp-v14",
   "version": "1.0.0",
-  "description": "",
+  "description": "YelpCamp was a project that I worked on while taking an online full-stack developer class by Colt Steele. My version of YelpCamp bonus features that were not covered in the class:",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,9 +17,17 @@
     "express-session": "^1.15.1",
     "geocoder": "^0.2.2",
     "method-override": "^2.3.7",
-    "mongoose": "^4.7.7",
+    "mongoose": "^5.0.10",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^4.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljfarre/YelpCamp-Code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ljfarre/YelpCamp-Code/issues"
+  },
+  "homepage": "https://github.com/ljfarre/YelpCamp-Code#readme"
 }
