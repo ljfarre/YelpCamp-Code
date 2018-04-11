@@ -18,12 +18,12 @@ var campgroundRoutes    = require("./routes/campgrounds"),
     commentRoutes       = require("./routes/comments"),
     indexRoutes         = require("./routes/index");
     
-
+    
 mongoose.Promise = global.Promise;
 // var url = process.env.DBURL || "mongodb://localhost/yelp_camp";
 // var url = "mongodb://ljfarre:matt6288@ds135619.mlab.com:35619/yelpcamp" || "mongodb://localhost/yelp_camp";
-var url = "mongodb://ljfarre:matt6288@ds135619.mlab.com:35619/yelpcamp";
-mongoose.connect(url);
+// var url = "mongodb://ljfarre:matt6288@ds135619.mlab.com:35619/yelpcamp";
+mongoose.connect(process.env.DATABASEURL);
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public")); //safer than using just "public" since we target the directory that script is in (v5) and go to public from there
 app.use(bodyParser.urlencoded({extended: true}));
