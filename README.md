@@ -11,4 +11,4 @@ YelpCamp was a project that I worked on while taking an online full-stack develo
 
 Setup instructions will be added in the future as I am still planning on making further improvements to this program.
 
-This project is currently up and running [here](https://yelpcamp-qc.herokuapp.com). It is hosted on Heroku's servers and uses MongoLab as the database host.
+This project is currently up and running [here](https://ancient-beach-72296.herokuapp.com). It is hosted on Heroku's servers and uses MongoLab as the database host.
